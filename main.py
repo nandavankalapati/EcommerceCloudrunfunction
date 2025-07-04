@@ -6,7 +6,7 @@ from flask import jsonify, make_response, request
 from utils.order_utils import validate_payload, enrich_payload, simulate_db_save
 
 # ——— Logger setup ———
-logger = logging.getLogger('order_service')
+logger = logging.getLogger('order_servic')
 logger.setLevel(logging.INFO)
 if not logger.handlers:
     h = logging.StreamHandler()
